@@ -1,0 +1,5 @@
+svncleaner is a command line program that removes the .svn directories from a directories and its subdirectories. I use it to strip the subversion related gunk from the source code that I post on this site because you don't really need to see that.
+
+Directions: Add svncleaner to your PATH. Navigate to the directory you want to strip of .svn directories (I recommend making a copy of the directory and running the program on that since, otherwise, you will delete the .svn directories in your working directory and that would be bad) and run svncleaner.
+
+Notes: This program was tested with Ruby version 1.9
